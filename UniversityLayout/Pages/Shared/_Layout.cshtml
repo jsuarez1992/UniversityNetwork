@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html class="h-full" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UniversityLayout</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UniversityLayout.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+<body class="flex flex-col min-h-screen bg-gray-50">
+    <header>
+        <nav class="bg-transparent px-10 sm:px-4 pt-6 pb-1.5">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a class="navbar-brand hover:text-sky-500" asp-area="" asp-page="/Index">UniversityLayout</a>
+                <button class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="flex items-center lg:flex-nowrap">
+                <div class="relative flex items-center lg:ml-4 sm:mr-0 mr-2">
+                    <span class="absolute ml-4 leading-none -translate-y-1/2 top-1/2 text-sky-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                    </svg>
+                    </span>
+                    <input class="block w-full min-w-[70px] py-1 pl-12 pr-4 text-base font-semibold text-sm leading-normal bg-sky-400/10  outline-none appearance-none placeholder:text-sky-500 peer text-sky-500 bg-clip-padding rounded-2xl" placeholder="Search..." type="text">
+                    <span onclick="(() => { this.previousElementSibling.value=''})()" class="absolute right-0 left-auto mr-4 leading-none -translate-y-1/2 peer-placeholder-shown:hidden top-1/2 hover:text-primary text-sky-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                    </span>
+                </div>
+                <div class="w-full md:block md:w-auto pl-4 hidden">
+                    <ul class="flex flex-col mt-0.5 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                        <li class="nav-item">
+                            <a class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-sky-500 md:p-0" asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-sky-500 md:p-0" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container flex flex-1 flex-col">
+        <main role="main" class="pb-3 flex-1">
+            @RenderBody()
+        </main>
+        <footer class="sticky top-[100vh] bg-gray-700 text-white text-center min-h-[10vh] pt-4">
+            <div class="container fluid">
+                <p>Copyright © 2022 - <a href="mailto:m.sohanemon@gmail.com" class="font-semibold">SohanEmon</a></p>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
