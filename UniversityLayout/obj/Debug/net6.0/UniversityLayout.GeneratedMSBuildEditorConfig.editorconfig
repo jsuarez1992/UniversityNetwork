@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/c151159/Desktop/CENTRIA/UNIVERSITYLAYOUT/UniversityLayout/UniversityLayout/Pages/AppForm/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwRm9ybVxGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/c151159/Desktop/CENTRIA/UNIVERSITYLAYOUT/UniversityLayout/UniversityLayout/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,6 +33,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/c151159/Desktop/CENTRIA/UNIVERSITYLAYOUT/UniversityLayout/UniversityLayout/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/c151159/Desktop/CENTRIA/UNIVERSITYLAYOUT/UniversityLayout/UniversityLayout/Pages/ThankYou/ThankYouPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhhbmtZb3VcVGhhbmtZb3VQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/c151159/Desktop/CENTRIA/UNIVERSITYLAYOUT/UniversityLayout/UniversityLayout/Pages/_ViewImports.cshtml]
