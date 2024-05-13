@@ -1,5 +1,5 @@
 ﻿@page
-@model UniversityLayout.Pages.AppForm.FormModel
+@model UniversityLayout.Pages.AppForm.CreateModel
 @{
 }
 <div class="text-center pt-[4%] pb-[4%]">
@@ -11,7 +11,7 @@
         </div>
     </p>
 </div>
-<form class="container max-w-screen-lg items-center justify-center mx-auto" method="post" action="submit">
+<form class="container max-w-screen-lg items-center justify-center mx-auto" method="post">
     <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
         <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
             <div class="text-gray-600">
@@ -22,19 +22,19 @@
                 <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
                     <div class="md:col-span-5">
                         <label for="full_name">Full Name</label>
-                        <input asp-for="FormA.Name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
+                        <input asp-for="@Model.forma.Name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
                     </div>
                     <div class="md:col-span-5">
                         <label for="email">Email Address</label>
-                        <input asp-for="FormA.Email" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
+                        <input asp-for="@Model.forma.Email" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
                     </div>
                     <div class="md:col-span-3">
                         <label for="address">Address / Street</label>
-                        <input asp-for="FormA.Address" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                        <input asp-for="@Model.forma.Address" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
                     </div>
                     <div class="md:col-span-2">
                         <label for="city">City</label>
-                        <input asp-for="FormA.City" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                        <input asp-for="@Model.forma.City" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
                     </div>
                   <div class="md:col-span-5 text-right">
                     <div class="inline-flex items-end">
