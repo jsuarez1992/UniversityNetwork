@@ -1,0 +1,31 @@
+﻿@page
+@model UniversityLayout.Pages.User.UserDisplayModel
+@{
+}
+<h1>All Forms</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var forma in Model.forma)
+        {
+            <tr>
+                <td>@forma.Name</td>
+                <td>@forma.Email</td>
+                <td>@forma.Address</td>
+                <td>@forma.City</td>
+                <td></td>
+                <td></td>
+            </tr>
+        }
+        </tbody>
+    </table>
