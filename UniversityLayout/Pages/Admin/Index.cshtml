@@ -1,14 +1,15 @@
 ﻿@page
-@model IndexModel
+@model UniversityLayout.Pages.Admin.IndexModel
 @{
-    ViewData["Title"] = "Home page";
 }
-
 <div class="text-center pt-[4%] pb-[4%]">
     <h1 class="display-4 pb-2">Welcome</h1>
     <p class="inline">
-        New undergraduate student? Check our Student's guide <div class="center relative inline-block select-none whitespace-nowrap rounded-lg 
-    bg-pink-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white"><a href="https://docs.microsoft.com/aspnet/core">here</a></div>.
+        Check our latest intranet news
+        <div class="center relative inline-block select-none whitespace-nowrap rounded-lg
+    bg-pink-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+            <a href="https://docs.microsoft.com/aspnet/core">here</a>
+        </div>.
     </p>
 </div>
 <div class="container mx-auto px-6">
@@ -16,9 +17,9 @@
         <div class="bg-gray-900 bg-opacity-70 flex items-center h-full">
             <div class="px-10 max-w-xl">
                 <h2 class="text-2xl text-white font-semibold">ADMISSION 2025-I</h2>
-                <p class="mt-2 text-gray-400">Interested in applying? Read the requirements, check our current degrees and our students stories.</p>
-                <a asp-page="/Student/ValidInfo" class="flex items-center mt-4 px-3 py-2 bg-sky-500 text-white text-sm uppercase font-medium rounded hover:bg-sky-700 focus:outline-none focus:bg-blue-500">
-                    <span>More Info</span>
+                <p class="mt-2 text-gray-400">All the information for our most recent applicants in one place.</p>
+                <a asp-page="/Admin/AdminFormMain" class="flex items-center mt-4 px-3 py-2 bg-sky-500 text-white text-sm uppercase font-medium rounded hover:bg-sky-700 focus:outline-none focus:bg-blue-500">
+                    <span>Admission Forms</span>
                     <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
                         <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>
@@ -30,24 +31,22 @@
         <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:w-1/2" style="background-image: url('https://images.unsplash.com/photo-1570616969692-54d6ba3d0397?q=80&w=1722&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
             <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
                 <div class="px-10 max-w-xl">
-                    <h2 class="text-2xl text-white font-semibold">New Students</h2>
-                    <p class="mt-2 text-gray-400">Are you planning to join our admission process? Click the link below to register before starting the admission process.</p>
-                    <a asp-page="/Student/SignUp" class="flex items-center mt-4 px-3 py-2 bg-sky-500 text-white text-sm uppercase font-medium rounded hover:bg-sky-700 focus:outline-none focus:bg-blue-500">
-                        <span>More Info</span>
-                        <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
+                    <h2 class="text-2xl text-white font-semibold">Faculties</h2>
+                    <p class="mt-2 text-gray-400">Add or modify degree names, in accordance to the latest legistaltion.</p>
+                    <button class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                        <span>Go to Faculty</span>
+                        <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </button>
                 </div>
             </div>
         </div>
         <div class="w-full h-64 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-center md:mt-0 md:w-1/2" style="background-image: url('https://plus.unsplash.com/premium_photo-1681505236530-e2095e58b532?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
             <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
                 <div class="px-10 max-w-xl">
-                    <h2 class="text-2xl text-white font-semibold">Campus News</h2>
-                    <p class="mt-2 text-gray-400">Are you an alumni already? Check our latest campus news here and spread the joy of studing at UAC!</p>
+                    <h2 class="text-2xl text-white font-semibold">Interview Schedules</h2>
+                    <p class="mt-2 text-gray-400">Make sure to keep track of your student interviews well in advance.</p>
                     <button class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
-                        <span>More Info</span>
+                        <span>Go to Schedule</span>
                         <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                     </button>
                 </div>
