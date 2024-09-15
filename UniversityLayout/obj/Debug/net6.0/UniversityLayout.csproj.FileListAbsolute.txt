@@ -57,7 +57,6 @@ C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLay
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\scopedcss\bundle\UniversityLayout.styles.css
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\scopedcss\projectbundle\UniversityLayout.bundle.scp.css
-C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\UniversityLayout.csproj.CopyComplete
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\UniversityLayout.dll
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\refint\UniversityLayout.dll
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\UniversityLayout.pdb
@@ -67,3 +66,10 @@ C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLay
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\bin\Debug\net6.0\xunit.assert.dll
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\bin\Debug\net6.0\xunit.core.dll
 C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\bin\Debug\net6.0\xunit.execution.dotnet.dll
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\UniversityLayout.sourcelink.json
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\staticwebassets\msbuild.UniversityLayout.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\staticwebassets\msbuild.build.UniversityLayout.props
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UniversityLayout.props
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UniversityLayout.props
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\c151159\Desktop\CENTRIA\UNIVERSITYLAYOUT\UniversityLayout\UniversityLayout\obj\Debug\net6.0\Universi.47C8D1F9.Up2Date

@@ -1,0 +1,64 @@
+﻿@page
+@model UniversityLayout.Pages.Student.FormModel
+@{
+}
+<div class="text-center pt-[4%] pb-[4%]">
+    <h1 class="display-4 pb-2">Welcome</h1>
+    <p class="inline">
+        Remember that the deadline for the current application is <div class="center relative inline-block select-none whitespace-nowrap rounded-lg
+    bg-pink-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+            10/10/2024
+        </div>
+    </p>
+</div>
+<form class="container max-w-screen-lg items-center justify-center mx-auto">
+    <div class="bg-white rounded shadow-lg p-4 px-4 md:p-8 mb-6">
+        <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 lg:grid-cols-3">
+            <div class="text-gray-600">
+                <p class="font-medium text-lg">Application Details</p>
+                <p>Please fill out all the fields.</p>
+            </div>
+            <div class="lg:col-span-2">
+                <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
+                    <div class="md:col-span-5">
+                        <label for="full_name">School Name</label>
+                        <input type="text" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
+                    </div>
+                    <div class="md:col-span-5">
+                        <label for="email">Enrolled Since</label>
+                        <input type="date" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
+                    </div>
+                    <div class="md:col-span-3">
+                        <label for="address">Enrolled Until</label>
+                        <input type="date" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="city">Average Score</label>
+                        <input type="number" step="any" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="city">Level Of Study</label>
+                        <input type="text" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="city">Semester Enrollment</label>
+                        <input type="text" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="city">First Choice</label>
+                        <input type="text" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                    </div>
+                    <div class="md:col-span-2">
+                        <label for="city">Second Choice</label>
+                        <input type="text" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="" />
+                    </div>
+                    <div class="md:col-span-5 text-right">
+                        <div class="inline-flex items-end">
+                            <a asp-page="/ThankYou/ThankYouPage" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
